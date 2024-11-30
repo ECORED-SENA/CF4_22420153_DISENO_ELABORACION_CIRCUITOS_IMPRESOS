@@ -46,7 +46,7 @@
               figure
                 img(src="@/assets/curso/tema1/4.svg")
             .col-md(style="place-self:center;")
-              p.mb-0.text-white #[strong(style="color:#F0CF2B;") Nota.] La temperatura puede variar según la marca del papel. En caso de usar papeles de dibujo no termo transferibles, la plancha debe estar a su máxima potencia.
+              p.mb-0.text-white #[strong(style="color:#F0CF2B !important;") Nota.] La temperatura puede variar según la marca del papel. En caso de usar papeles de dibujo no termo transferibles, la plancha debe estar a su máxima potencia.
     
     Separador
 
