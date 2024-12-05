@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Ruteado con máquinas #[em CNC]
+      h1 Ruteado con máquinas CNC
     
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="flip-up" data-aos-duration="800")
       .bloque-texto-g__img(
@@ -46,7 +46,7 @@
           .row.col-xl-11.m-auto(titulo="<em>Software</em>")
             p Incluye el diseño del PCB, la generación y lectura de archivos descriptivos, la interfaz de usuario, la visualización y la transmisión de datos al controlador mediante un dispositivo de comunicación.
           .row.col-xl-11.m-auto(titulo="Diseño del PCB y generación de archivos Gerber")
-            p Utiliza programas EDA (Electronic Design Automation) para convertir el esquema en una lista de conexiones (netlist) de los pines de los componentes. Estos archivos se procesan para generar el esquema del PCB y se guardan en formato HPGL o Gerber, lo que reduce el desgaste de la herramienta al trazar solo los contornos de las líneas conductoras.
+            p Utiliza programas EDA (#[em Electronic Design Automation]) para convertir el esquema en una lista de conexiones (#[em netlist]) de los pines de los componentes. Estos archivos se procesan para generar el esquema del PCB y se guardan en formato HPGL o Gerber, lo que reduce el desgaste de la herramienta al trazar solo los contornos de las líneas conductoras.
           .row.col-xl-11.m-auto(titulo="Interfaz de usuario y lectura de archivos Gerber")
             p Permiten abrir archivos Gerber, interpretar instrucciones y visualizar las características del PCB, como el tipo de interpolación, formato de coordenadas y tipo de movimiento. El programa genera un esquema preliminar en pantalla, y para iniciar el fresado, se ubica la fresa en (0, 0, 0) y se activa el motor AC.
     
@@ -74,7 +74,7 @@
     .cont_2_1
       .row
         .col-lg(data-aos="fade-right" style="place-self:center;")
-          p.mb-0 Existen múltiples programas para el diseño de PCBs asistidos por computadora. Los archivos Gerber, en formato ASCII, contienen información de coordenadas y tipos de líneas, lo cual permite a los plotters reproducir el layout, capa por capa. Este formato es estándar en la industria, asegurando la claridad y precisión necesarias para la fabricación de un PCB.
+          p.mb-0 Existen múltiples programas para el diseño de PCBs asistidos por computadora. Los archivos Gerber, en formato ASCII, contienen información de coordenadas y tipos de líneas, lo cual permite a los #[em plotters] reproducir el #[em layout], capa por capa. Este formato es estándar en la industria, asegurando la claridad y precisión necesarias para la fabricación de un PCB.
         .col-lg-auto.d-none.d-lg-block(data-aos="fade-left" style="place-self:center;")
           figure
             img(src="@/assets/curso/tema2/7.png")

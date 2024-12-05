@@ -37,7 +37,7 @@ export default {
         {
           id: 2,
           texto:
-            '¿Cuál es la herramienta más comúnmente utilizada para perforar manualmente una tarjeta de circuito impreso?',
+            '¿Qué tipo de archivo se utiliza para guiar el proceso de perforación en las máquinas CNC?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

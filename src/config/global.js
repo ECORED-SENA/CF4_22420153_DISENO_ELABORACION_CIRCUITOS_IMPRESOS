@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Fabricación del <em>Board<em>',
     descripcionCurso:
-      'La fabricación de circuitos impresos incluye perforación, ensamblaje y pruebas. Se utilizan métodos manuales (motortool) e industriales (CNC) con archivos Excellon y Gerber. La secuencia de montaje empieza con componentes pequeños y sigue un orden preciso. Se requieren equipos de protección durante la soldadura y corte de pines. Finalmente, se realizan pruebas para asegurar el funcionamiento del circuito.',
+      'La fabricación de circuitos impresos incluye perforación, ensamblaje y pruebas. Se utilizan métodos manuales (<em>motortool</em>) e industriales (CNC) con archivos <em>Excellon</em> y <em>Gerber</em>. La secuencia de montaje empieza con componentes pequeños y sigue un orden preciso. Se requieren equipos de protección durante la soldadura y corte de pines. Finalmente, se realizan pruebas para asegurar el funcionamiento del circuito.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -67,7 +67,7 @@ export default {
         nombreRuta: 'tema3',
         numero: '3',
         titulo:
-          '3.	Aplicación de antisolder mediante serigrafía (<em>Screen</em>)',
+          'Aplicación de antisolder mediante serigrafía (<em>Screen</em>)',
         desarrolloContenidos: true,
       },
     ],
@@ -120,28 +120,28 @@ export default {
     {
       tema: 'Métodos de fabricación de circuitos impresos',
       referencia:
-        'Ideatronic (2017). Circuito impreso con el METODO DEL PLANCHADO/Ideatroni. [Archivo de video] Youtube.  ',
+        'Ideatronic (2017). Circuito impreso con el METODO DEL PLANCHADO/Ideatroni. [Archivo de video] YouTube.  ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=MX9_9U6Wnu8 ',
     },
     {
       tema: 'Impresión de circuitos fotosensibilizados y placas fotosensibles',
       referencia:
-        'Ideatronic (2016). Como hacer circuitos impresos CASEROS/Ideatronic. [Archivo de video] Youtube.  ',
+        'Ideatronic (2016). Como hacer circuitos impresos CASEROS/Ideatronic. [Archivo de video] YouTube.  ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hlGfd4A6BAU ',
     },
     {
       tema: 'Ruteado con máquinas CNC',
       referencia:
-        'GADGETBRO MX (2016). Fabricación de tarjeta electrónica (PCB) con la CNC router 3018Pro [Archivo de video] Youtube.  ',
+        'GADGETBRO MX (2016). Fabricación de tarjeta electrónica (PCB) con la CNC router 3018Pro [Archivo de video] YouTube.  ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=swtIq31ooGE ',
     },
     {
       tema: 'Aplicación de antisolder mediante serigrafía (<em>Screen</em>)',
       referencia:
-        'JF AUTOMECÁNICA- (2021).COMO APLICAR MASCARA ANTISOLDER UV EN PCB, METODO CASERO.  [Archivo de video] Youtube.',
+        'JF AUTOMECÁNICA- (2021).COMO APLICAR MASCARA ANTISOLDER UV EN PCB, METODO CASERO.  [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=A7CDXzJBVSo&ab_channel=JFAUTOMEC%C3%81NICA',

@@ -33,7 +33,7 @@
               figure.mb-4.text-center
                 img.d-inline(src="@/assets/curso/tema3/5.svg" style="max-width:90px;")
               h5.mb-3.m-auto.ps-4.pe-4.p-2(style="background-color:#FFECF7;max-width:fit-content;") Preparación de la mezcla
-              p.mb-0 Preparar la máscara antisoldante (Solder mask UV) según las especificaciones del proveedor, que suelen incluir una sustancia endurecedora al calor.
+              p.mb-0 Preparar la máscara antisoldante (#[em Solder mask] UV) según las especificaciones del proveedor, que suelen incluir una sustancia endurecedora al calor.
             .tarjeta.color-acento-botones.p-4.bg-white.text-center.pt-xl-5.pb-xl-5(style="box-shadow:0px 0px 15px rgba(0,0,0,.15);")
               figure.mb-4.text-center
                 img.d-inline(src="@/assets/curso/tema3/6.svg" style="max-width:90px;")
@@ -70,7 +70,7 @@
     
     .row
       .col-lg(style="place-self:center;" data-aos="fade-right")
-        p.mb-0 La aplicación de antisolder con láminas fotosensibles es comúnmente utilizada en entornos industriales. Existen películas sintéticas, como el Dry-film Soldermask, que requieren secado mediante rodillos calientes, siendo este el método más convencional. Sin embargo, el proceso exige laminadores especiales que se ajusten al grosor del sustrato, generalmente de 1/16", para lograr los mejores resultados. También se requiere la aplicación de aire caliente, horneado y exposición controlada a luz UV para asegurar una adecuada adhesión y curado sobre la lámina de cobre. Este método es recomendado para personas con experiencia en la laminación Dry-film y con acceso a las herramientas necesarias.
+        p.mb-0 La aplicación de #[em antisolder] con láminas fotosensibles es comúnmente utilizada en entornos industriales. Existen películas sintéticas, como el #[em Dry-film Soldermask], que requieren secado mediante rodillos calientes, siendo este el método más convencional. Sin embargo, el proceso exige laminadores especiales que se ajusten al grosor del sustrato, generalmente de 1/16", para lograr los mejores resultados. También se requiere la aplicación de aire caliente, horneado y exposición controlada a luz UV para asegurar una adecuada adhesión y curado sobre la lámina de cobre. Este método es recomendado para personas con experiencia en la laminación #[em Dry-film] y con acceso a las herramientas necesarias.
       .col-lg-auto.d-none.d-lg-block(style="place-self:center;" data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema3/11.png")
@@ -106,7 +106,7 @@
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h4 Exposición
-              p El Dry-film Soldermask requiere un patrón de transferencia en formato positivo. Es recomendable usar positivos procesados profesionalmente. La lámina se expone a luz ultravioleta en una cámara, con presión entre el vidrio y el negativo.
+              p El #[em Dry-film Soldermask] requiere un patrón de transferencia en formato positivo. Es recomendable usar positivos procesados profesionalmente. La lámina se expone a luz ultravioleta en una cámara, con presión entre el vidrio y el negativo.
             .col-lg-5
               figure.m-auto.col-12.col-md-8.col-lg-12
                 img(src='@/assets/curso/tema3/16.png')
@@ -196,7 +196,7 @@
         .col.ps-2(style="place-self:end;")
           h3.mb-0.mb-lg-2.pe-4 Método industrial de perforación de tarjetas impresas
     
-    p(data-aos="fade-left") Las perforaciones industriales se realizan con máquinas CNC y requieren archivos generados específicamente para guiar el proceso en la tarjeta. Antes de generar los archivos #[em Gerber y Excellon Drilling] será necesario adecuar el layout para la manufactura de su circuito impreso, siguiendo las siguientes recomendaciones:
+    p(data-aos="fade-left") Las perforaciones industriales se realizan con máquinas CNC y requieren archivos generados específicamente para guiar el proceso en la tarjeta. Antes de generar los archivos #[em Gerber y Excellon Drilling] será necesario adecuar el #[em layout] para la manufactura de su circuito impreso, siguiendo las siguientes recomendaciones:
 
     .row.mt-5
       .col-lg-auto.d-none.d-lg-block(style="place-self:center;" data-aos="fade-right")
